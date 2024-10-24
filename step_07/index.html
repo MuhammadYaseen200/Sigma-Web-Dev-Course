@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms - Lets lesrn it</title>
+  </head>
+  <body>
+    <h1>form to apply for Sigma Web Dev Course - TA</h1>
+    <form action="" method="post">
+      <div>
+        <label for="UN">Enter your username</label>
+        <input
+          type="text"
+          id="UN"
+          name="username"
+          placeholder="Enter your username"
+          autofocus
+        />
+        <br /><br />
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+        <br /><br />
+      </div>
+      <div>
+        <input type="checkbox" id="subscribe" name="subscribe" value="" />
+        <label for="subscribe">Subscribe </label>
+        <br /><br />
+
+
+        <input type="checkbox" id="channel" name="channel" value="yes" />
+        <label for="channel">channel</label>
+        <br /><br />
+      </div>
+      <div>
+        <input type="radio" name="gender" id="male" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female" />
+        <label for="female">Female</label>
+        <br /><br />
+      </div>
+      <div>
+        <label for="comment">Enter your comment</label>
+        <br>
+        <textarea name="comment" rows="4" cols="50" placeholder="Enter your comment here...">
+      </textarea>
+      <br /><br />
+      </div>
+      <div>
+        <select name="fruits">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="cherry">Cherry</option>
+      </select>
+      </div>
+
+    </form>
+  </body>
+</html>
