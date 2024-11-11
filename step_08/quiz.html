@@ -1,3 +1,31 @@
 <!-- Quick Quiz
 Without Using br tag write a vertically aligned form asking for name, city, pincode of a user -->
 
+<form action="/submit" method="post">
+  <div>
+    <!-- Text input for Name -->
+    <label for="name">Name:</label>
+    <input
+      type="text"
+      id="name"
+      name="name"
+      placeholder="Enter your name"
+      autofocus
+      required
+    />
+  </div>
+  <div>
+    <!-- City input -->
+    <label for="text">City:</label>
+    <input type="text" id="text" name="text" required />
+  </div>
+
+  <div>
+    <!-- user pincode  -->
+    <label for="number">Pincode:</label>
+    <input type="number" id="number" name="x" required />
+  </div>
+
+  <!-- Submit button -->
+  <input type="submit" value="Submit" />
+</form>
