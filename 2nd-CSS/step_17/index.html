@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element Selectors */
+        div{
+            background-color: red;
+        }
+
+        /* Class Selectors */
+        .orange{
+            background-color: orange;
+        }
+
+        /* Id Selectors  */
+        #green{
+            background-color: green;
+        }
+
+        /* Child Selectors */
+        div > p{
+            color: blue;
+            background-color: brown;
+        }
+
+        /* Decendent Selectors */
+        div p {
+            background-color: pink;
+            color: purple;
+        }
+
+
+        /* Pseudo Slelctors */
+        a:visited{
+            color: yellow;
+        }
+        a:link{
+            color: black;
+        }
+        a:active{
+            background-color: red;
+        }
+        a:hover{
+            background-color: blue;
+        }
+        p:first-child{
+            background-color: aqua;
+        }
+
+        /* Universal Selectors */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+
+
+        
+    </style>
+</head>
+<body>
+    <main class="one">
+        <p>I m a First child</p>
+        <p>I m a Second child</p>
+    </main>
+    <div> i am div | can be selected by The "Element_Name".</div>
+    <div class="orange">Class Selectors can be select by ".Class_Name".</div>
+    <div id="green">ID selector can be select by "#ID_Name". /div>
+        <div>
+            This is div 
+            <p>Tis is his child | Child Selectors can be selected as eg: "div &gt; p"</p>
+        </div>
+        <div>
+            <article>
+                <p>Tis is his child | Child Selectors can be selected as eg: "div &gt; p"</p>
+            </article>
+        </div>
+        <a href="https://www.google.com">Google</a>
+        <a href="https://www.facebook2.com">Facebook</a>
+</body>
+</html>
