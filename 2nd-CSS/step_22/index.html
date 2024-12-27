@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Sizing Units - px, rem, em, vh, vw, % & more</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      /* html {
+        font-size: 12px;
+      } */
+      .box {
+        box-sizing: border-box;
+        border: 2px solid black;
+        background-color: aquamarine;
+        /* width: 1366px; */
+        /* width: 100vw; */
+        width: 80vw;
+        height: 10vh;
+        margin: auto;
+      }
+      .container {
+        box-sizing: border-box;
+        border: 2px solid black;
+        background-color: aquamarine;
+        /* width: 1366px; */
+        /* width: 100vw; */
+        width: 80vw;
+        /* height: 80vh; */
+        min-height: 80vh;
+        font-size: 18px;
+        margin: 23px auto;
+      }
+      .container div {
+        font-size: 2rem;
+        width: 50%;
+        border:2px solid red;
+      }
+        .container div p {
+            width: 50%;
+            border:2px solid green;
+        }
+      .mycont {
+        box-sizing: border-box;
+        border: 2px solid black;
+        color: rgb(0, 0, 0);
+        font-size: 22px;
+        /* width: 100vmin; */
+        width: 80vw;
+        margin: 23px auto;
+      }
+    </style>
+  </head>
+  <body>
+    I
+    <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units -->
+
+    <div class="box">This is a Box</div>
+    <div class="container">
+        <div>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus
+            eveniet obcaecati doloremque nihil tenetur quibusdam officia laudantium.
+            Ex ducimus perspiciatis tenetur, repudiandae itaque sit. Perspiciatis
+            incidunt deserunt aliquid excepturi ratione debitis aut, veritatis
+            neque. Quod hic blanditiis dolorum sapiente saepe aperiam sed tempore,
+            doloribus voluptate architecto! Minima, blanditiis at. Et consequuntur
+            sunt in exercitationem minima placeat.
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatem omnis veritatis nobis repellendus obcaecati quia error esse porro, repellat in repudiandae deserunt.
+            </p>
+        </div>
+      <p>
+        <!-- lorem999 -->
+      </p>
+    </div>
+    <div class="mycont">This is another container</div>
+  </body>
+</html>
