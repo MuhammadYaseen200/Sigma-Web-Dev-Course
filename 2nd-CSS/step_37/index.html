@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Exercise 5 - Design this Layout</title>
+    <style>
+        :root{
+            --def-margin:0;
+            --defpad:0;
+            --navcolor:#fc93ff;
+            --deftextcolor:white;
+        }
+      * {
+        margin: var(--def-margin);
+        padding: var(--defpad);
+      }
+      
+      header{
+        position: sticky;
+        top: 0;
+      }
+      nav {
+        background-color: var(--navcolor);
+        width: 100%;
+      }
+      ul {
+        height: 10px;
+        padding: 30px 0px;
+      }
+      ul li {
+        list-style: none;
+        display: inline;
+        color: var(--deftextcolor);
+        padding: 30px;
+        font-size: large;
+      }
+      .circle {
+        background-color: #d67e29;
+        border-radius: 80px;
+        width: 100px;
+        height: 100px;
+        position: fixed;
+        left: 87%;
+        top: 500px;
+        text-align: center;
+        padding: 29px;
+        font-size: x-large;
+        color: var(--deftextcolor);
+      }
+
+      .boxes {
+        padding: 38px;
+        background-color: green;
+        height: 90vh;
+        margin: 10px;     
+     }
+      .box {
+        width: 45%;
+        height: 80%;
+        margin: 25px;
+        display: inline-block;
+      }
+      .box1 {
+        background-color: #ff9292;
+      }
+      .box2 {
+        background-color: #3982e1;
+      }
+      .container {
+        border: 2px solid #323232;
+        border-radius: 30px;
+        padding: 10px;
+        margin: 20px 0px;
+        width: 98%;
+        height: 27vh;
+        font-size: xxx-large;
+        text-align: center;
+        background-color: black;
+        color: var(--deftextcolor);
+        
+      }
+      footer {
+        text-align: center;
+        background-color: grey;
+        color: var(--deftextcolor);
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <div class="circle">Ad Commercial</div>
+    <main>
+      <div class="boxes">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+      </div>
+      <div class="container">
+        <h2>Welcome to This Sigma Web Devepoment Express</h2>
+      </div>
+    </main>
+    <footer>Copyright &copy; | Alright reserved</footer>
+
+  </body>
+</html>

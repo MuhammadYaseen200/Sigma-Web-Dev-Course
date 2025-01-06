@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float & Clear</title>
+    <style>
+        img{
+            float: left;
+        }
+        .cards{
+            border: 2px solid black;
+            display: flow-root;
+        }
+        .card{
+            border: 2px solid red;
+
+        }
+        .card:nth-child(3){
+            background-color: aqua;
+            clear: right;
+            /* clear: both; */
+        }
+        </style>
+</head>
+<body>
+    <div class="cards">
+        <img src="https://media.istockphoto.com/id/928826678/photo/two-men-relaxing-and-fishing.jpg?s=2048x2048&w=is&k=20&c=fSG5LG9kxLNzjG9_YI1bXdz3-gD7UW2e2bd9arD5Vm8=" alt="" width="230">
+        <div class="card">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ratione sed doloribus explicabo! Ducimus mollitia modi natus sapiente quae esse dolorem sed quis doloribus, possimus amet dolore perspiciatis dolorum sint fugit totam, aut quam?</p>
+        </div>
+        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, tempora. Atque voluptate ipsum, doloribus eius quaerat voluptates mollitia maiores natus et repellat sequi iure iste! Recusandae repudiandae magnam autem dolor obcaecati perspiciatis, distinctio facere assumenda aliquid quos officia excepturi quasi repellat consequatur maiores ipsum deleniti doloribus iusto omnis sunt accusamus eveniet hic numquam. Tenetur pariatur libero, eaque quaerat amet earum rerum vel id sit similique. Qui odit dignissimos expedita, officia error cupiditate? Voluptas nisi dolorem ad numquam, a sed et dolorum maxime quo vitae neque possimus, minima ea officiis sapiente. Aspernatur odit facilis voluptas dicta error qui et odio. Cum obcaecati iure libero dicta optio necessitatibus illum doloribus, quae quis delectus. Doloremque, quibusdam quod ullam, deleniti dolore illum excepturi consequatur iure praesentium, suscipit quae sint minima! Velit harum quae voluptatem voluptates id rem, maiores obcaecati error, inventore quaerat ducimus, earum ad cupiditate doloremque fuga. Ad odio quas eligendi placeat iusto veniam accusantium rerum quia, tempore, quidem, cumque sequi est. Nobis dicta reiciendis minus, iure harum cupiditate rem ad molestiae non reprehenderit rerum beatae corrupti ratione? Repellat fugiat sit itaque? Error nihil sequi nobis nemo optio necessitatibus reprehenderit, corporis suscipit ut explicabo perferendis alias laudantium aspernatur aliquid hic recusandae reiciendis facere.</div>
+        <div class="card">Card 3</div>
+    </div>
+</body>
+</html>

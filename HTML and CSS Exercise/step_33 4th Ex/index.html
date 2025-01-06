@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 4 - Multi Color Website</title>
+    <style>
+      :root {
+        --nav: #516278;
+        --ul: #f2f200;
+        --textcolor: white;
+        --bodycolor: #f4fdff;
+        --border-radius:34px;
+        --hover :#a13941ff;
+      }
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        background-color: var(--bodycolor, #b0bfc6);
+      }
+      nav {
+        background-color: var(--nav, black);
+        padding: 0px 127px 0px 127px;
+      }
+      ul {
+        background-color: var(--ul,#666633);
+        display: flex;
+        justify-content: center;
+      }
+      ul li {
+        color: var(--textcolor, white);
+        border-radius: var(--border-radius);
+        list-style: none;
+        padding: 25px;
+      }
+      .home:hover {
+        background-color: var(--hover , #001655);
+      }
+      .about:hover {
+        background-color: var(--hover , #001655);
+      }
+      .portfolio:hover {
+        background-color: var(--hover , #001655);
+      }
+      .service:hover {
+        background-color: var(--hover , #001655);
+      }
+      .gallery:hover {
+        background-color: var(--hover , #001655);
+      }
+      .contact:hover {
+        background-color: var(--hover , #001655);
+    }
+    
+    </style>
+  </head>
+  <body>
+    <div>
+      <nav>
+        <ul>
+          <li class="home">Home</li>
+          <li class="about">About</li>
+          <li class="portfolio">Portfolio</li>
+          <li class="service">Services</li>
+          <li class="gallery">Gallery</li>
+          <li class="contact">Contact</li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+</html>
