@@ -13,31 +13,19 @@ body {
   background-size: max(1200px, 100vw);
   background-repeat: no-repeat;
   height: 70vh;
-  /* height: 87vh; */
   position: relative;
 }
-/* @media screen and (max-width: 1520px) {
-  .main {
-    height: 683px;
-  }
-} */
 
 .main .box {
   height: 70vh;
-  /* height: 87vh; */
   width: 100%;
   opacity: 0.62;
   background-color: black;
   position: absolute;
   top: 0;
 }
-/* @media screen and (max-width: 1520px) {
-  .main .box {
-    height: 683px;
-  }
-} */
+
 nav {
-  /* height: 100px; */
   height: 60px;
   max-width: 80vw;
   margin: auto;
@@ -58,36 +46,13 @@ nav button {
 .hero {
   font-family: "Martel Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
     sans-serif;
-  /* height: calc(100% - 100px); */
   height: calc(100% - 60px);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* color: white;
-  position: relative;
-  gap: 23px;
-  padding: 0 30px; */
 }
 
-/* .hero > :nth-child(1){
-    font-weight: 900;
-    font-style: normal;
-    font-size: xx-large;
-    text-align: center;
-}
-.hero > :nth-child(2){
-    font-style: normal;
-    font-weight:500;
-    font-size: 20px;
-    text-align: center;
-}
-.hero > :nth-child(3){
-    font-style: normal;
-    font-weight:400;
-    font-size: 16px;
-    text-align: center;
-} */
 .sepration {
   height: 2px;
   background-color: gray;
@@ -178,7 +143,6 @@ nav button {
   position: relative;
 }
 .sec-img img {
-  /* width: 30vw; */
   width: 365px;
   position: relative;
   z-index: 10;
@@ -191,7 +155,6 @@ nav button {
   top: 57px;
     left: 68px;
     width: 266px;
-    /* width: 22vw; */
 }
 section.first > div {
   display: flex;
@@ -205,38 +168,6 @@ section.first > div :first-child {
 section.first > div :nth-child(2) {
   font-size: 12px;
 }
-/* @media screen and (max-width: 1000px) {
-  .first{
-    font-size: 38px;
-    flex-direction: column;
-    text-align: center;
-    gap: 15px;
-  }
-  section.first > div :first-child {
-    font-size: 38px;
-    font-weight: bolder;
-}
-  section.first > div :nth-child(2) {
-    font-size: 20px;
-}
-  section.first > div {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-  .sec-img img {
-    width: 480px;
-    position: relative;
-    z-index: 10;
-    left: 20px;
-}
-  .sec-img video {
-    position: absolute;
-    top: 75px;
-    left: 84px;
-    width: 348px;
-}
-} */
 .faq {
   background-color: black;
   color: white;
@@ -304,34 +235,3 @@ footer {
 
 
 
-/* @media screen and (min-width:1770px) {
-  .text {
-    max-width: 60vw;
-    position: relative;
-    gap: 12px;
-    padding: 0 30px;
-}
-.text > :nth-child(1) {
-  font-weight: 900;
-  font-size: 109px;
-}
-.text > :nth-child(2) {
-  font-weight: 700;
-  font-size: 50px;
-}
-.text > :nth-child(3) {
-  font-size: 30px;
-}
-.btn-red {
-  padding: 24px 64px;
-  border-radius: 8px;
-  font-size: 49px;
-}
-.main input {
-  width: 670px;
-  padding: 42px 70px 20px 28px;
-  border-radius: 3px;
-  font-size: 51px;
-}
-
-} */
